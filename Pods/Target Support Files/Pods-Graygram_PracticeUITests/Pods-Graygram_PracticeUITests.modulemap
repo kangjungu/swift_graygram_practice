@@ -1,0 +1,6 @@
+framework module Pods_Graygram_PracticeUITests {
+  umbrella header "Pods-Graygram_PracticeUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

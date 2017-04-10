@@ -1,0 +1,895 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		813980111E95D6DB00E4458E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813980101E95D6DB00E4458E /* AppDelegate.swift */; };
+		813980131E95D6DB00E4458E /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813980121E95D6DB00E4458E /* SplashViewController.swift */; };
+		813980181E95D6DB00E4458E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 813980171E95D6DB00E4458E /* Assets.xcassets */; };
+		8139801B1E95D6DB00E4458E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 813980191E95D6DB00E4458E /* LaunchScreen.storyboard */; };
+		813980261E95D6DB00E4458E /* Graygram_PracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813980251E95D6DB00E4458E /* Graygram_PracticeTests.swift */; };
+		813980311E95D6DB00E4458E /* Graygram_PracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813980301E95D6DB00E4458E /* Graygram_PracticeUITests.swift */; };
+		81A41C061E978A9500E75283 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A41C051E978A9500E75283 /* LoginViewController.swift */; };
+		81A41C081E978ABE00E75283 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A41C071E978ABE00E75283 /* MainTabBarController.swift */; };
+		81A41C0A1E978BF600E75283 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A41C091E978BF600E75283 /* UserService.swift */; };
+		81A41C0C1E978C3200E75283 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A41C0B1E978C3200E75283 /* User.swift */; };
+		81A41C0E1E978E8E00E75283 /* MappingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A41C0D1E978E8E00E75283 /* MappingError.swift */; };
+		81A41C101E97978200E75283 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A41C0F1E97978200E75283 /* AuthService.swift */; };
+		81A41C121E97994600E75283 /* Response+ErrorInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A41C111E97994600E75283 /* Response+ErrorInfo.swift */; };
+		81A41C141E979A9F00E75283 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A41C131E979A9F00E75283 /* FeedViewController.swift */; };
+		81A41C161E979AA600E75283 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A41C151E979AA600E75283 /* SettingsViewController.swift */; };
+		81A41C181E979C8900E75283 /* UIImage+Grayscaled.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A41C171E979C8900E75283 /* UIImage+Grayscaled.swift */; };
+		81A41C1A1E979D5E00E75283 /* ImageCropViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A41C191E979D5E00E75283 /* ImageCropViewController.swift */; };
+		81A41C1C1E979E4400E75283 /* PostEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A41C1B1E979E4400E75283 /* PostEditorViewController.swift */; };
+		81A41C1E1E979F2600E75283 /* FeedViewMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A41C1D1E979F2600E75283 /* FeedViewMode.swift */; };
+		81A41C201E979F8E00E75283 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A41C1F1E979F8E00E75283 /* Post.swift */; };
+		81A41C221E97A1D900E75283 /* PostCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A41C211E97A1D900E75283 /* PostCardCell.swift */; };
+		81A41C241E97A20100E75283 /* PostTileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A41C231E97A20100E75283 /* PostTileCell.swift */; };
+		81A41C261E97A3D500E75283 /* CollectionActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A41C251E97A3D500E75283 /* CollectionActivityIndicatorView.swift */; };
+		81A41C281E97A4BF00E75283 /* Paging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A41C271E97A4BF00E75283 /* Paging.swift */; };
+		81A41C2A1E97A50500E75283 /* FeedService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A41C291E97A50500E75283 /* FeedService.swift */; };
+		81A41C2C1E97A59600E75283 /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A41C2B1E97A59600E75283 /* Feed.swift */; };
+		81A41C2E1E97AC7800E75283 /* UserImageView+Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A41C2D1E97AC7800E75283 /* UserImageView+Photo.swift */; };
+		81A41C301E97ACA400E75283 /* PhotoSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A41C2F1E97ACA400E75283 /* PhotoSize.swift */; };
+		81A41C321E97AF1100E75283 /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A41C311E97AF1100E75283 /* PostService.swift */; };
+		81A41C341E97B0FF00E75283 /* String+BoundingRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A41C331E97B0FF00E75283 /* String+BoundingRect.swift */; };
+		81A41C361E97B19000E75283 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A41C351E97B19000E75283 /* PostViewController.swift */; };
+		B0FE43BFC92A16B1DFFD0642 /* Pods_Graygram_PracticeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E271789DE214EBC2B6BC7C4F /* Pods_Graygram_PracticeUITests.framework */; };
+		B454082ED95088BA0CF40C5A /* Pods_Graygram_Practice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC931DD2B72D07516FB7E86B /* Pods_Graygram_Practice.framework */; };
+		B73CE99E46C878DFB6F67F6C /* Pods_Graygram_PracticeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BA7B3330B62F5A34DE4077C /* Pods_Graygram_PracticeTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		813980221E95D6DB00E4458E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 813980051E95D6DB00E4458E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8139800C1E95D6DB00E4458E;
+			remoteInfo = Graygram_Practice;
+		};
+		8139802D1E95D6DB00E4458E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 813980051E95D6DB00E4458E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8139800C1E95D6DB00E4458E;
+			remoteInfo = Graygram_Practice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F046E35464A1A42BB75CF7B /* Pods-Graygram_PracticeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Graygram_PracticeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Graygram_PracticeUITests/Pods-Graygram_PracticeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		57B4CF6DEB425D63D67E2343 /* Pods-Graygram_PracticeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Graygram_PracticeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Graygram_PracticeTests/Pods-Graygram_PracticeTests.release.xcconfig"; sourceTree = "<group>"; };
+		5BA7B3330B62F5A34DE4077C /* Pods_Graygram_PracticeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Graygram_PracticeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		619EDC8E62B8FB2C44B68E61 /* Pods-Graygram_Practice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Graygram_Practice.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Graygram_Practice/Pods-Graygram_Practice.debug.xcconfig"; sourceTree = "<group>"; };
+		7B9C76746AF8989EABB37A0C /* Pods-Graygram_PracticeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Graygram_PracticeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Graygram_PracticeTests/Pods-Graygram_PracticeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8139800D1E95D6DB00E4458E /* Graygram_Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Graygram_Practice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		813980101E95D6DB00E4458E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		813980121E95D6DB00E4458E /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		813980171E95D6DB00E4458E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8139801A1E95D6DB00E4458E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8139801C1E95D6DB00E4458E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		813980211E95D6DB00E4458E /* Graygram_PracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Graygram_PracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		813980251E95D6DB00E4458E /* Graygram_PracticeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graygram_PracticeTests.swift; sourceTree = "<group>"; };
+		813980271E95D6DB00E4458E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8139802C1E95D6DB00E4458E /* Graygram_PracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Graygram_PracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		813980301E95D6DB00E4458E /* Graygram_PracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graygram_PracticeUITests.swift; sourceTree = "<group>"; };
+		813980321E95D6DB00E4458E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81A41C051E978A9500E75283 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		81A41C071E978ABE00E75283 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		81A41C091E978BF600E75283 /* UserService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		81A41C0B1E978C3200E75283 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		81A41C0D1E978E8E00E75283 /* MappingError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MappingError.swift; sourceTree = "<group>"; };
+		81A41C0F1E97978200E75283 /* AuthService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		81A41C111E97994600E75283 /* Response+ErrorInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Response+ErrorInfo.swift"; sourceTree = "<group>"; };
+		81A41C131E979A9F00E75283 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		81A41C151E979AA600E75283 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		81A41C171E979C8900E75283 /* UIImage+Grayscaled.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Grayscaled.swift"; sourceTree = "<group>"; };
+		81A41C191E979D5E00E75283 /* ImageCropViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCropViewController.swift; sourceTree = "<group>"; };
+		81A41C1B1E979E4400E75283 /* PostEditorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostEditorViewController.swift; sourceTree = "<group>"; };
+		81A41C1D1E979F2600E75283 /* FeedViewMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewMode.swift; sourceTree = "<group>"; };
+		81A41C1F1E979F8E00E75283 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		81A41C211E97A1D900E75283 /* PostCardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCardCell.swift; sourceTree = "<group>"; };
+		81A41C231E97A20100E75283 /* PostTileCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTileCell.swift; sourceTree = "<group>"; };
+		81A41C251E97A3D500E75283 /* CollectionActivityIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionActivityIndicatorView.swift; sourceTree = "<group>"; };
+		81A41C271E97A4BF00E75283 /* Paging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Paging.swift; sourceTree = "<group>"; };
+		81A41C291E97A50500E75283 /* FeedService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedService.swift; sourceTree = "<group>"; };
+		81A41C2B1E97A59600E75283 /* Feed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+		81A41C2D1E97AC7800E75283 /* UserImageView+Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserImageView+Photo.swift"; sourceTree = "<group>"; };
+		81A41C2F1E97ACA400E75283 /* PhotoSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoSize.swift; sourceTree = "<group>"; };
+		81A41C311E97AF1100E75283 /* PostService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostService.swift; sourceTree = "<group>"; };
+		81A41C331E97B0FF00E75283 /* String+BoundingRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+BoundingRect.swift"; sourceTree = "<group>"; };
+		81A41C351E97B19000E75283 /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		8A738F4EF3D2AB97C8F9141C /* Pods-Graygram_PracticeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Graygram_PracticeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Graygram_PracticeUITests/Pods-Graygram_PracticeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E271789DE214EBC2B6BC7C4F /* Pods_Graygram_PracticeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Graygram_PracticeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC931DD2B72D07516FB7E86B /* Pods_Graygram_Practice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Graygram_Practice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE884484DC03A226817F1863 /* Pods-Graygram_Practice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Graygram_Practice.release.xcconfig"; path = "Pods/Target Support Files/Pods-Graygram_Practice/Pods-Graygram_Practice.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8139800A1E95D6DB00E4458E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B454082ED95088BA0CF40C5A /* Pods_Graygram_Practice.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8139801E1E95D6DB00E4458E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B73CE99E46C878DFB6F67F6C /* Pods_Graygram_PracticeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		813980291E95D6DB00E4458E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0FE43BFC92A16B1DFFD0642 /* Pods_Graygram_PracticeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70AE765F9128C5BE4963FDA0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				619EDC8E62B8FB2C44B68E61 /* Pods-Graygram_Practice.debug.xcconfig */,
+				EE884484DC03A226817F1863 /* Pods-Graygram_Practice.release.xcconfig */,
+				7B9C76746AF8989EABB37A0C /* Pods-Graygram_PracticeTests.debug.xcconfig */,
+				57B4CF6DEB425D63D67E2343 /* Pods-Graygram_PracticeTests.release.xcconfig */,
+				8A738F4EF3D2AB97C8F9141C /* Pods-Graygram_PracticeUITests.debug.xcconfig */,
+				3F046E35464A1A42BB75CF7B /* Pods-Graygram_PracticeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		813980041E95D6DB00E4458E = {
+			isa = PBXGroup;
+			children = (
+				8139800F1E95D6DB00E4458E /* Graygram_Practice */,
+				813980241E95D6DB00E4458E /* Graygram_PracticeTests */,
+				8139802F1E95D6DB00E4458E /* Graygram_PracticeUITests */,
+				8139800E1E95D6DB00E4458E /* Products */,
+				70AE765F9128C5BE4963FDA0 /* Pods */,
+				F001D1B485045236F5A75DE8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8139800E1E95D6DB00E4458E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8139800D1E95D6DB00E4458E /* Graygram_Practice.app */,
+				813980211E95D6DB00E4458E /* Graygram_PracticeTests.xctest */,
+				8139802C1E95D6DB00E4458E /* Graygram_PracticeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8139800F1E95D6DB00E4458E /* Graygram_Practice */ = {
+			isa = PBXGroup;
+			children = (
+				813980101E95D6DB00E4458E /* AppDelegate.swift */,
+				81A41BFC1E9788AA00E75283 /* Networking */,
+				81A41BFD1E9788B100E75283 /* Services */,
+				81A41BFE1E9788B600E75283 /* Types */,
+				81A41BFF1E9788C300E75283 /* Models */,
+				81A41C001E9788C800E75283 /* ViewControllers */,
+				81A41C011E9788CD00E75283 /* Views */,
+				81A41C021E9788D000E75283 /* Utils */,
+				81A41C031E9788DC00E75283 /* Resources */,
+				81A41C041E9788E100E75283 /* Supporting Files */,
+			);
+			path = Graygram_Practice;
+			sourceTree = "<group>";
+		};
+		813980241E95D6DB00E4458E /* Graygram_PracticeTests */ = {
+			isa = PBXGroup;
+			children = (
+				813980251E95D6DB00E4458E /* Graygram_PracticeTests.swift */,
+				813980271E95D6DB00E4458E /* Info.plist */,
+			);
+			path = Graygram_PracticeTests;
+			sourceTree = "<group>";
+		};
+		8139802F1E95D6DB00E4458E /* Graygram_PracticeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				813980301E95D6DB00E4458E /* Graygram_PracticeUITests.swift */,
+				813980321E95D6DB00E4458E /* Info.plist */,
+			);
+			path = Graygram_PracticeUITests;
+			sourceTree = "<group>";
+		};
+		81A41BFC1E9788AA00E75283 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				81A41C0D1E978E8E00E75283 /* MappingError.swift */,
+				81A41C111E97994600E75283 /* Response+ErrorInfo.swift */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		81A41BFD1E9788B100E75283 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				81A41C0F1E97978200E75283 /* AuthService.swift */,
+				81A41C091E978BF600E75283 /* UserService.swift */,
+				81A41C291E97A50500E75283 /* FeedService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		81A41BFE1E9788B600E75283 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				81A41C2F1E97ACA400E75283 /* PhotoSize.swift */,
+				81A41C271E97A4BF00E75283 /* Paging.swift */,
+				81A41C1D1E979F2600E75283 /* FeedViewMode.swift */,
+				81A41C311E97AF1100E75283 /* PostService.swift */,
+			);
+			name = Types;
+			sourceTree = "<group>";
+		};
+		81A41BFF1E9788C300E75283 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				81A41C0B1E978C3200E75283 /* User.swift */,
+				81A41C1F1E979F8E00E75283 /* Post.swift */,
+				81A41C2B1E97A59600E75283 /* Feed.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		81A41C001E9788C800E75283 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				813980121E95D6DB00E4458E /* SplashViewController.swift */,
+				81A41C351E97B19000E75283 /* PostViewController.swift */,
+				81A41C071E978ABE00E75283 /* MainTabBarController.swift */,
+				81A41C051E978A9500E75283 /* LoginViewController.swift */,
+				81A41C131E979A9F00E75283 /* FeedViewController.swift */,
+				81A41C1B1E979E4400E75283 /* PostEditorViewController.swift */,
+				81A41C151E979AA600E75283 /* SettingsViewController.swift */,
+				81A41C191E979D5E00E75283 /* ImageCropViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		81A41C011E9788CD00E75283 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				81A41C211E97A1D900E75283 /* PostCardCell.swift */,
+				81A41C231E97A20100E75283 /* PostTileCell.swift */,
+				81A41C251E97A3D500E75283 /* CollectionActivityIndicatorView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		81A41C021E9788D000E75283 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				81A41C331E97B0FF00E75283 /* String+BoundingRect.swift */,
+				81A41C171E979C8900E75283 /* UIImage+Grayscaled.swift */,
+				81A41C2D1E97AC7800E75283 /* UserImageView+Photo.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		81A41C031E9788DC00E75283 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				813980171E95D6DB00E4458E /* Assets.xcassets */,
+				813980191E95D6DB00E4458E /* LaunchScreen.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		81A41C041E9788E100E75283 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8139801C1E95D6DB00E4458E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F001D1B485045236F5A75DE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC931DD2B72D07516FB7E86B /* Pods_Graygram_Practice.framework */,
+				5BA7B3330B62F5A34DE4077C /* Pods_Graygram_PracticeTests.framework */,
+				E271789DE214EBC2B6BC7C4F /* Pods_Graygram_PracticeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8139800C1E95D6DB00E4458E /* Graygram_Practice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 813980351E95D6DB00E4458E /* Build configuration list for PBXNativeTarget "Graygram_Practice" */;
+			buildPhases = (
+				297105BF315842F9DC7563C8 /* [CP] Check Pods Manifest.lock */,
+				813980091E95D6DB00E4458E /* Sources */,
+				8139800A1E95D6DB00E4458E /* Frameworks */,
+				8139800B1E95D6DB00E4458E /* Resources */,
+				D8CDDFE82757A58822AD0B3D /* [CP] Embed Pods Frameworks */,
+				F2A8323C744FDB9F51645511 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Graygram_Practice;
+			productName = Graygram_Practice;
+			productReference = 8139800D1E95D6DB00E4458E /* Graygram_Practice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		813980201E95D6DB00E4458E /* Graygram_PracticeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 813980381E95D6DB00E4458E /* Build configuration list for PBXNativeTarget "Graygram_PracticeTests" */;
+			buildPhases = (
+				F58F867FD2326A535A9F512F /* [CP] Check Pods Manifest.lock */,
+				8139801D1E95D6DB00E4458E /* Sources */,
+				8139801E1E95D6DB00E4458E /* Frameworks */,
+				8139801F1E95D6DB00E4458E /* Resources */,
+				2C64E96404C9EF30E0863D26 /* [CP] Embed Pods Frameworks */,
+				289A91C20B612792E8FACE7E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				813980231E95D6DB00E4458E /* PBXTargetDependency */,
+			);
+			name = Graygram_PracticeTests;
+			productName = Graygram_PracticeTests;
+			productReference = 813980211E95D6DB00E4458E /* Graygram_PracticeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8139802B1E95D6DB00E4458E /* Graygram_PracticeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8139803B1E95D6DB00E4458E /* Build configuration list for PBXNativeTarget "Graygram_PracticeUITests" */;
+			buildPhases = (
+				2B4D707818563B1E618C2F00 /* [CP] Check Pods Manifest.lock */,
+				813980281E95D6DB00E4458E /* Sources */,
+				813980291E95D6DB00E4458E /* Frameworks */,
+				8139802A1E95D6DB00E4458E /* Resources */,
+				9D15753A358D0B17B21ADA1D /* [CP] Embed Pods Frameworks */,
+				928B23AE6D3E42D79989D2E7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8139802E1E95D6DB00E4458E /* PBXTargetDependency */,
+			);
+			name = Graygram_PracticeUITests;
+			productName = Graygram_PracticeUITests;
+			productReference = 8139802C1E95D6DB00E4458E /* Graygram_PracticeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		813980051E95D6DB00E4458E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = KangJungu;
+				TargetAttributes = {
+					8139800C1E95D6DB00E4458E = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 328ZKU396P;
+						ProvisioningStyle = Automatic;
+					};
+					813980201E95D6DB00E4458E = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 328ZKU396P;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8139800C1E95D6DB00E4458E;
+					};
+					8139802B1E95D6DB00E4458E = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 328ZKU396P;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8139800C1E95D6DB00E4458E;
+					};
+				};
+			};
+			buildConfigurationList = 813980081E95D6DB00E4458E /* Build configuration list for PBXProject "Graygram_Practice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 813980041E95D6DB00E4458E;
+			productRefGroup = 8139800E1E95D6DB00E4458E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8139800C1E95D6DB00E4458E /* Graygram_Practice */,
+				813980201E95D6DB00E4458E /* Graygram_PracticeTests */,
+				8139802B1E95D6DB00E4458E /* Graygram_PracticeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8139800B1E95D6DB00E4458E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8139801B1E95D6DB00E4458E /* LaunchScreen.storyboard in Resources */,
+				813980181E95D6DB00E4458E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8139801F1E95D6DB00E4458E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8139802A1E95D6DB00E4458E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		289A91C20B612792E8FACE7E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Graygram_PracticeTests/Pods-Graygram_PracticeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		297105BF315842F9DC7563C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2B4D707818563B1E618C2F00 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2C64E96404C9EF30E0863D26 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Graygram_PracticeTests/Pods-Graygram_PracticeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		928B23AE6D3E42D79989D2E7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Graygram_PracticeUITests/Pods-Graygram_PracticeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D15753A358D0B17B21ADA1D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Graygram_PracticeUITests/Pods-Graygram_PracticeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8CDDFE82757A58822AD0B3D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Graygram_Practice/Pods-Graygram_Practice-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2A8323C744FDB9F51645511 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Graygram_Practice/Pods-Graygram_Practice-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F58F867FD2326A535A9F512F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		813980091E95D6DB00E4458E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81A41C321E97AF1100E75283 /* PostService.swift in Sources */,
+				81A41C061E978A9500E75283 /* LoginViewController.swift in Sources */,
+				81A41C281E97A4BF00E75283 /* Paging.swift in Sources */,
+				81A41C2E1E97AC7800E75283 /* UserImageView+Photo.swift in Sources */,
+				81A41C2A1E97A50500E75283 /* FeedService.swift in Sources */,
+				81A41C1C1E979E4400E75283 /* PostEditorViewController.swift in Sources */,
+				81A41C0A1E978BF600E75283 /* UserService.swift in Sources */,
+				81A41C221E97A1D900E75283 /* PostCardCell.swift in Sources */,
+				81A41C181E979C8900E75283 /* UIImage+Grayscaled.swift in Sources */,
+				81A41C161E979AA600E75283 /* SettingsViewController.swift in Sources */,
+				81A41C141E979A9F00E75283 /* FeedViewController.swift in Sources */,
+				81A41C0C1E978C3200E75283 /* User.swift in Sources */,
+				81A41C081E978ABE00E75283 /* MainTabBarController.swift in Sources */,
+				81A41C241E97A20100E75283 /* PostTileCell.swift in Sources */,
+				81A41C261E97A3D500E75283 /* CollectionActivityIndicatorView.swift in Sources */,
+				81A41C0E1E978E8E00E75283 /* MappingError.swift in Sources */,
+				81A41C341E97B0FF00E75283 /* String+BoundingRect.swift in Sources */,
+				81A41C301E97ACA400E75283 /* PhotoSize.swift in Sources */,
+				81A41C361E97B19000E75283 /* PostViewController.swift in Sources */,
+				813980131E95D6DB00E4458E /* SplashViewController.swift in Sources */,
+				81A41C2C1E97A59600E75283 /* Feed.swift in Sources */,
+				81A41C1E1E979F2600E75283 /* FeedViewMode.swift in Sources */,
+				81A41C201E979F8E00E75283 /* Post.swift in Sources */,
+				813980111E95D6DB00E4458E /* AppDelegate.swift in Sources */,
+				81A41C1A1E979D5E00E75283 /* ImageCropViewController.swift in Sources */,
+				81A41C121E97994600E75283 /* Response+ErrorInfo.swift in Sources */,
+				81A41C101E97978200E75283 /* AuthService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8139801D1E95D6DB00E4458E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				813980261E95D6DB00E4458E /* Graygram_PracticeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		813980281E95D6DB00E4458E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				813980311E95D6DB00E4458E /* Graygram_PracticeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		813980231E95D6DB00E4458E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8139800C1E95D6DB00E4458E /* Graygram_Practice */;
+			targetProxy = 813980221E95D6DB00E4458E /* PBXContainerItemProxy */;
+		};
+		8139802E1E95D6DB00E4458E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8139800C1E95D6DB00E4458E /* Graygram_Practice */;
+			targetProxy = 8139802D1E95D6DB00E4458E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		813980191E95D6DB00E4458E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8139801A1E95D6DB00E4458E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		813980331E95D6DB00E4458E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		813980341E95D6DB00E4458E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		813980361E95D6DB00E4458E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 619EDC8E62B8FB2C44B68E61 /* Pods-Graygram_Practice.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 328ZKU396P;
+				INFOPLIST_FILE = Graygram_Practice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JHJG.Graygram-Practice";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		813980371E95D6DB00E4458E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE884484DC03A226817F1863 /* Pods-Graygram_Practice.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 328ZKU396P;
+				INFOPLIST_FILE = Graygram_Practice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JHJG.Graygram-Practice";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		813980391E95D6DB00E4458E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B9C76746AF8989EABB37A0C /* Pods-Graygram_PracticeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 328ZKU396P;
+				INFOPLIST_FILE = Graygram_PracticeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JHJG.Graygram-PracticeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Graygram_Practice.app/Graygram_Practice";
+			};
+			name = Debug;
+		};
+		8139803A1E95D6DB00E4458E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57B4CF6DEB425D63D67E2343 /* Pods-Graygram_PracticeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 328ZKU396P;
+				INFOPLIST_FILE = Graygram_PracticeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JHJG.Graygram-PracticeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Graygram_Practice.app/Graygram_Practice";
+			};
+			name = Release;
+		};
+		8139803C1E95D6DB00E4458E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A738F4EF3D2AB97C8F9141C /* Pods-Graygram_PracticeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 328ZKU396P;
+				INFOPLIST_FILE = Graygram_PracticeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JHJG.Graygram-PracticeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Graygram_Practice;
+			};
+			name = Debug;
+		};
+		8139803D1E95D6DB00E4458E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F046E35464A1A42BB75CF7B /* Pods-Graygram_PracticeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 328ZKU396P;
+				INFOPLIST_FILE = Graygram_PracticeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JHJG.Graygram-PracticeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Graygram_Practice;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		813980081E95D6DB00E4458E /* Build configuration list for PBXProject "Graygram_Practice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				813980331E95D6DB00E4458E /* Debug */,
+				813980341E95D6DB00E4458E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		813980351E95D6DB00E4458E /* Build configuration list for PBXNativeTarget "Graygram_Practice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				813980361E95D6DB00E4458E /* Debug */,
+				813980371E95D6DB00E4458E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		813980381E95D6DB00E4458E /* Build configuration list for PBXNativeTarget "Graygram_PracticeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				813980391E95D6DB00E4458E /* Debug */,
+				8139803A1E95D6DB00E4458E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8139803B1E95D6DB00E4458E /* Build configuration list for PBXNativeTarget "Graygram_PracticeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8139803C1E95D6DB00E4458E /* Debug */,
+				8139803D1E95D6DB00E4458E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 813980051E95D6DB00E4458E /* Project object */;
+}
